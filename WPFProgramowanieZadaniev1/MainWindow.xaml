@@ -10,15 +10,24 @@
 
         <Button Content="Kliknij mnie" Name="add" Click="Button_Click" HorizontalAlignment="Left" Margin="251,147,0,0" VerticalAlignment="Top" Height="65" Width="242" ClickMode="Press" Background="#FFBB2F2F" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">
         </Button>
-        <Button Margin= "236,217,292,142">
+        <Button Name="ImageButton" Click="Button_Click_1" Margin= "236,217,292,142">
             <Grid>
                 <Image Source="Images\Obrazek.jpg"></Image>
+
+                <Button Name="SecondButton" Content ="SecondButton" Margin= "119,15,-64,15" Background="#FFE03E3E" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
             </Grid>
-            
-            
-            
+
         </Button>
-        
+
         <!--<Button Content = "PrzyciskKodowany" Name="CoddedButton" Click="Button_Click" HorizontalAlignment="Left" Margin="290,243,0,131" Width="160"></Button>
 
 

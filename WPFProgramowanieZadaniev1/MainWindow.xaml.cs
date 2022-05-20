@@ -23,14 +23,18 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-            label_content.Content = 0;
+            //label_content.Content = 0;
         }
 
         private void Button_Click(object sender, RoutedEventArgs click)
         {
-            int counter = Convert.ToInt32(label_content.Content);
-            counter++;
-            label_content.Content = counter;
+            //int counter = Convert.ToInt32(label_content.Content);
+            //counter++;
+            //label_content.Content = counter;
+        }
+        private void Button_Click_1(object sender, RoutedEventArgs click)
+        {
+            ImageButton.Content = "Test";
         }
     }
 }
