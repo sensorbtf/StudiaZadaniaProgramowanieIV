@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Name="GridName">
+
+
         <Button Content="Kliknij mnie" Name="add" Click="Button_Click" HorizontalAlignment="Left" Margin="251,147,0,0" VerticalAlignment="Top" Height="65" Width="242" ClickMode="Press" Background="#FFBB2F2F" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">
         </Button>
         <Label Content="label" Name="label_content" HorizontalAlignment="Left" Margin="493,151,0,226" Width="75" FontSize="24" FontFamily="Bahnschrift" FontWeight="Bold" FontStyle="Normal" BorderBrush="{Binding AreAnyTouchesCaptured, ElementName=label_content, Mode=OneWay}" Visibility="Visible">
@@ -15,4 +17,5 @@
             </Label.Effect>
         </Label>
     </Grid>
+
 </Window>

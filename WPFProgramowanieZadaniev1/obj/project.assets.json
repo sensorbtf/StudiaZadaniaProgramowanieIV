@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\source\\repos\\WPFProgramowanieZadaniev1\\WpfApp1.csproj",
+      "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\CardGameRepo\\StudiaZadaniaProgramowanieIV\\WPFProgramowanieZadaniev1\\WpfApp1.csproj",
       "projectName": "WpfApp1",
-      "projectPath": "C:\\Users\\mateu\\source\\repos\\WPFProgramowanieZadaniev1\\WpfApp1.csproj",
+      "projectPath": "C:\\Users\\mateu\\OneDrive\\CardGameRepo\\StudiaZadaniaProgramowanieIV\\WPFProgramowanieZadaniev1\\WpfApp1.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\source\\repos\\WPFProgramowanieZadaniev1\\obj\\",
+      "outputPath": "C:\\Users\\mateu\\OneDrive\\CardGameRepo\\StudiaZadaniaProgramowanieIV\\WPFProgramowanieZadaniev1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
