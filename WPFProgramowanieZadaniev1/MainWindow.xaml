@@ -8,6 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="GridName">
 
+        <Button Content = "PrzyciskKodowany" Name="CoddedButton" Click="Button_Click" HorizontalAlignment="Left" Margin="290,243,0,131" Width="160"></Button>
+
 
         <Button Content="Kliknij mnie" Name="add" Click="Button_Click" HorizontalAlignment="Left" Margin="251,147,0,0" VerticalAlignment="Top" Height="65" Width="242" ClickMode="Press" Background="#FFBB2F2F" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">
         </Button>
