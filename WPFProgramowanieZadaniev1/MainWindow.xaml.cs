@@ -35,6 +35,7 @@ namespace WpfApp1
         private void Button_Click_1(object sender, RoutedEventArgs click)
         {
             ImageButton.Content = "Test";
+            MessageBox.Show("test");
         }
     }
 }

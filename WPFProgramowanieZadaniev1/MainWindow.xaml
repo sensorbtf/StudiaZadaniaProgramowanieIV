@@ -14,16 +14,7 @@
             <Grid>
                 <Image Source="Images\Obrazek.jpg"></Image>
 
-                <Button Name="SecondButton" Content ="SecondButton" Margin= "119,15,-64,15" Background="#FFE03E3E" RenderTransformOrigin="0.5,0.5">
-                    <Button.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform ScaleX="1" ScaleY="1"/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </Button.RenderTransform>
-                </Button>
+                <Button Name="SecondButton" Click="Button_Click_1" Content ="SecondButton" Margin= "119,15,-64,15" Background="#FFE03E3E" RenderTransformOrigin="0.5,0.5"></Button>
             </Grid>
 
         </Button>
