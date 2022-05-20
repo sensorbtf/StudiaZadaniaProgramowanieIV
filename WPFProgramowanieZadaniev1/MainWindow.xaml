@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Kliknij mnie" Name="add" Click="Button_Click" HorizontalAlignment="Left" Margin="251,147,0,0" VerticalAlignment="Top" Height="65" Width="242" ClickMode="Press" Background="#FFBB2F2F" FontWeight="Bold" FontFamily="Arial Black" FontSize="16">
+        </Button>
+        <Label Content="label" Name="label_content" HorizontalAlignment="Left" Margin="493,151,0,226" Width="75" FontSize="24" FontFamily="Bahnschrift" FontWeight="Bold" FontStyle="Normal" BorderBrush="{Binding AreAnyTouchesCaptured, ElementName=label_content, Mode=OneWay}" Visibility="Visible">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+    </Grid>
+</Window>
