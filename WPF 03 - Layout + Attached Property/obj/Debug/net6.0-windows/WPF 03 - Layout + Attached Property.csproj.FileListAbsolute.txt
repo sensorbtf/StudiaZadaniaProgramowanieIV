@@ -1,0 +1,21 @@
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\bin\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.exe
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\bin\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.deps.json
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\bin\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.runtimeconfig.json
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\bin\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.dll
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\bin\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.pdb
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property_MarkupCompile.cache
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property_MarkupCompile.lref
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.g.resources
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.dll
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\refint\WPF 03 - Layout + Attached Property.dll
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.pdb
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\WPF 03 - Layout + Attached Property.genruntimeconfig.cache
+C:\Users\mateu\OneDrive\CardGameRepo\StudiaZadaniaProgramowanieIV\WPF 03 - Layout + Attached Property\obj\Debug\net6.0-windows\ref\WPF 03 - Layout + Attached Property.dll

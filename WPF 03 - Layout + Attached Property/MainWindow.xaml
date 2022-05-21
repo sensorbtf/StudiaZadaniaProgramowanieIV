@@ -7,6 +7,26 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Name ="LewyGorny" Click="Button_Click" Grid.Column="0" Margin="10,10,10,10"></Button>
+        <Button Name ="SrodkowyGorny" Click="Button_Click" Grid.Column="1" Margin="10,10,10,10"/>
+        <Button Name ="PrawyGorny"  Click="Button_Click" Grid.Column="2" Margin="10,10,10,10"></Button>
+        <Button Name ="LewySrodkowy"  Click="Button_Click" Grid.Column="0" Grid.Row="1" Margin="10,10,10,10"></Button>
+        <Button Name ="SrodkowySrodkowy" Click="Button_Click" Grid.Column="1" Grid.Row="1" Margin="10,10,10,10"></Button>
+        <Button Name ="PrawySrodkowy" Click="Button_Click" Grid.Column="2" Grid.Row="1" Margin="10,10,10,10"></Button>
+        <Button Name ="LewyDolny" Click="Button_Click" Grid.Column="0" Grid.Row="2" Margin="10,10,10,10"></Button>
+        <Button Name ="SrodkowyDolny" Click="Button_Click" Grid.Column="1" Grid.Row="2" Margin="10,10,10,10"></Button>
+        <Button Name ="PrawyDolny" Click="Button_Click" Grid.Column="2" Grid.Row="2" Margin="10,10,10,10"></Button>
 
+        <Label Content =" Koniec gry " Name ="Center" Grid.ColumnSpan="3" Margin="182,99,224,104" Grid.RowSpan="3" Background="Red" Visibility="Hidden"></Label>
     </Grid>
 </Window>

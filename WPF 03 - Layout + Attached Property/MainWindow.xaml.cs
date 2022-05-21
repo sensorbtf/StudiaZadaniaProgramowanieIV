@@ -20,9 +20,37 @@ namespace WPF_03___Layout___Attached_Property
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int _round = 1;
         public MainWindow()
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs click)
+        {
+            if (_round %)
+            {
+                if (sender is Button)
+                {
+                    (sender as Button).IsEnabled = false;
+
+                    (sender as Button).Content = "X";
+
+                    _round++;
+                }
+            }
+            else
+            {
+                (sender as Button).Content = "O";
+
+                (sender as Button).IsEnabled = false;
+
+                _round++;
+            }
+            if (_round == 10)
+            {
+                Center.Visibility = Visibility.Visible;
+            }
+        }
+
     }
 }
