@@ -28,7 +28,7 @@
         <Button Name ="PrawyDolny" Click="Button_Click" Grid.Column="2" Grid.Row="2" Margin="10,10,10,10" FontSize="30" Tag=""></Button>
 
         <Label Content =" &#xD;&#xA;&#xD;&#xA;&#x9;Koniec gry " FontSize="30" Name ="EndGameLabel" Grid.ColumnSpan="3" Margin="182,99,224,104" Grid.RowSpan="3" Background="Red" Visibility="Hidden" ></Label>
-        <Button Content ="Reset" Click="Button_Click_Reset" FontSize="20" x:Name="GameReset" Grid.Column="1" Grid.ColumnSpan="2" Margin="266,144,0,-1" Grid.RowSpan="2" Grid.Row="1" Visibility="Hidden"></Button>
+        <Button Content ="Reset" Click="Button_Click_Reset" FontSize="20" x:Name="GameReset" Grid.Column="1" Margin="48,77,48,140" Grid.Row="1" Visibility="Hidden" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>
