@@ -10,7 +10,27 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.25*" />
             <ColumnDefinition Width="*"/> 
-        </Grid.ColumnDefinitions>
+             </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition MinHeight="100"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <GridSplitter Grid.Column="1" 
+              Grid.RowSpan="3" 
+              HorizontalAlignment="Center" 
+              VerticalAlignment="Stretch"
+              Background="Brown" 
+              ShowsPreview="true"
+              Width="100"
+              Margin="20"/>
+        <GridSplitter Grid.Row="1" 
+              Grid.RowSpan="3" 
+              HorizontalAlignment="Stretch" 
+              VerticalAlignment="Top"
+              Background="Blue" 
+              ShowsPreview="true"
+              Height="220"
+              />
         <TextBlock Background="#FFFF0F0F"> Menu</TextBlock>
         <TextBlock Grid.Column="1"> Jako że * w WPF odpowiada za proporcjonalną wielkość, wpisując 0.25 przed gwiazdką upewniamy się, że pierwsza kolumna będzie zawsze 4-krotnie mniejsza od drugiej</TextBlock>
     </Grid>
