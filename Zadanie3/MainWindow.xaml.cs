@@ -24,5 +24,17 @@ namespace Zadanie3
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Random rnd = new Random();
+            int i = rnd.Next(0, 200000);
+
+            System.Windows.Controls.Button newButton = new Button();
+
+            newButton.Content = i.ToString();
+            newButton.Name = "Button" + i.ToString();
+            uniformGrid1.Children.Add(newButton);
+        }
     }
 }

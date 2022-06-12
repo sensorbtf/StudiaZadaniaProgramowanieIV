@@ -1,5 +1,4 @@
-﻿
-<Window x:Class="Zadanie3.MainWindow"
+﻿<Window x:Class="Zadanie3.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,12 +6,16 @@
         xmlns:local="clr-namespace:Zadanie3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <UniformGrid Columns="2" Rows="3" Name="uniformGrid1">
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
-        <Button></Button>
-    </UniformGrid>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Background="White"> Menu</TextBlock>
+        <UniformGrid Grid.Column="2" Columns="5" Rows="5" Name="uniformGrid1">
+
+        </UniformGrid>
+        <Button Grid.Column="0" Background="Red" Margin="118,168,118,167" Click="Button_Click">Przycisk</Button>
+    </Grid>
 
 </Window>
