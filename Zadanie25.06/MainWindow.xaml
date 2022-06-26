@@ -5,16 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zadanie25._06"
         mc:Ignorable="d"
-        Title="MainWindow" Height="160" Width="300">
+        Title="MainWindow" Height="555" Width="555">
     <Grid>
-        <WrapPanel>
-            <Button>Test button 1</Button>
+        <DockPanel>
+            <Button DockPanel.Dock="Bottom" Height="25">Bottom</Button>
+            <Button DockPanel.Dock="Top" Height="50">Top</Button>
+            <Button DockPanel.Dock="Bottom" Height="50">Bottom</Button>
+            <Button DockPanel.Dock="Left" Height ="340" Width="50">Left</Button>
+            <Button DockPanel.Dock="Left" Width="50">Left</Button>
+            <Button DockPanel.Dock="Right" Width="50">Right</Button>
+            <Button DockPanel.Dock="Top">Top</Button>
+            <Button>Center</Button>
+        </DockPanel>
+
+
+        <!--<StackPanel Orientation="Horizontal">
+            <Button>Button 1</Button>
+            <Button>Button 2</Button>
+            <Button>Button 3</Button>
+            <Button >Button 4</Button>
+            <Button VerticalAlignment="Bottom">Button 5</Button>
+            <Button HorizontalAlignment="Right">Button 6</Button>
+            <Button HorizontalAlignment="Left">Button 7</Button>
+        </StackPanel>-->
+
+        <!--<WrapPanel>
+            <Button Width="60">Test button 1</Button>
             <Button>Test button 2</Button>
             <Button>Test button 3</Button>
-            <Button Height="40">Test button 4</Button>
+            <Button Height="44">Test button 4</Button>
             <Button>Test button 5</Button>
-            <Button>Test button 6</Button>
-        </WrapPanel>
+            <Button Height="70">Test button 6</Button>
+        </WrapPanel>-->
     </Grid>
     
 </Window>
